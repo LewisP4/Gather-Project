@@ -1,0 +1,156 @@
+body, 
+html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* 
+=======================
+MAIN NAVIGATION ON EVERY PAGE
+*/
+
+.main-nav {
+    background-color: #222;
+}
+
+.main-nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    background: #446;
+}
+
+/* 
+=======================
+MAIN HEADER ON EVERY PAGE
+*/
+
+.main-header {
+    background-color: green;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.main-title {
+    font-size: 30px;
+    color: white;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* 
+=======================
+IMAGE PANELS ON HOME PAGE
+*/
+
+.panels-container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.panel {
+    display: inline-block;
+    background-color: white;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 1px 3px 3px rgba(0,0,0,0.2);
+    margin: 5px;
+}
+
+.panel img {
+    width: 200px;
+}
+
+.panel span {
+    display: block;
+    width: 200px;
+    text-align:center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* 
+=======================
+MAIN CONTENT AREA ON ALL PAGES
+*/
+
+.main-content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+
+/* 
+=======================
+FOOD LIST ON MENU PAGE
+*/
+
+.food-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.food-list li {
+    border-bottom: 1px dotted #ddd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* 
+=======================
+IMAGES ON GALLERY PAGE
+*/
+
+.gallery {
+    width: 100%;
+    list-style-type: none;
+}
+
+.gallery li {
+    width: 200px;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+
+
+/* 
+=======================
+ANIMAL BOXES ON JAVASCRIPT PAGE
+*/
+
+.box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background: #bbbbbb;
+    margin: 10px;
+}
+
+
+/* 
+=======================
+CHECKLIST ON JAVASCRIPT PAGE
+*/
+
+.complete {
+    text-decoration: line-through;
+}
+
