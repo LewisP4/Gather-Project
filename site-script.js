@@ -54,11 +54,19 @@ for(var count=0 ; count < listOfItems.length ; count++) {
 
 var timeBetweenUpdates = 1000;
 
+var hoursBox = document.getElementById('hours');
+var minutesBox = document.getElementById('minutes');
+var secondsBox = document.getElementById('seconds');
+
 function displayTime() {
     var date = new Date();
     var hours = date.getHours();
     var minutes = date.getMinutes();
     var seconds = date.getSeconds();
+
+    hoursBox.innerHTML = hours;
+    minutesBox.innerHTML = minutes;
+    secondsBox.innerHTML = seconds;
 
     console.log('the time is..', date);
     console.log(hours, minutes, seconds);
